@@ -8,7 +8,7 @@ import { Textarea } from '@/components/ui/textarea'
 
 // --- Brand (Armenia) ---
 const BRAND = {
-  name: 'NovaHost IT', // TODO: replace with your company name
+  name: 'SaveAndStore', // TODO: replace with your company name
   phone: '+374 55 123 456', // Armenia dialing code
   email: 'sales@novahost.am', // your domain
   address: 'Երևան, Հայաստան / Yerevan, Armenia',
