@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+/* iOS text & safe area fixes */
+html { -webkit-text-size-adjust: 100%; }
+body { overflow-x: hidden; word-break: break-word; }
+
+.hyp { overflow-wrap: anywhere; word-break: break-word; hyphens: auto; }
+.text-balance { text-wrap: balance; }
+
+img, svg, video { max-width: 100%; height: auto; }
+.min-w-0 { min-width: 0; }
+
+.safe-top    { padding-top:    env(safe-area-inset-top); }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
